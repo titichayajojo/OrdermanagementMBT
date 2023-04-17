@@ -1,0 +1,150 @@
+{
+  "models": [
+    {
+      "edges": [
+        {
+          "id": "330d8a1f-c5dc-4bcb-83fa-5d2a066106aa",
+          "name": "place",
+          "sourceVertexId": "127faf0f-cc01-4fba-8fff-c0dcf61bb82e",
+          "targetVertexId": "78a6397f-736d-4169-bda8-909f0af959be"
+        },
+        {
+          "id": "620e4b1a-331a-4833-b27b-ad14aaef6f36",
+          "name": "pay",
+          "sourceVertexId": "78a6397f-736d-4169-bda8-909f0af959be",
+          "targetVertexId": "0799f4e4-07a0-429b-8b5c-c39ac5c2b4d9"
+        },
+        {
+          "id": "fa88a712-9e21-425c-a432-591bcfe5fc0f",
+          "name": "paySuccess",
+          "sourceVertexId": "0799f4e4-07a0-429b-8b5c-c39ac5c2b4d9",
+          "targetVertexId": "3397f6e9-2d4a-42bf-9595-df11ad68a3bc"
+        },
+        {
+          "id": "2b14d080-d658-461d-8a34-a01e10040124",
+          "name": "ship",
+          "sourceVertexId": "3397f6e9-2d4a-42bf-9595-df11ad68a3bc",
+          "targetVertexId": "483b18e2-7d20-4ace-ae6d-a0fdeb1ec860"
+        },
+        {
+          "id": "e747d763-122e-48a2-a7d2-dba70b0985da",
+          "name": "reset",
+          "sourceVertexId": "483b18e2-7d20-4ace-ae6d-a0fdeb1ec860",
+          "targetVertexId": "127faf0f-cc01-4fba-8fff-c0dcf61bb82e"
+        },
+        {
+          "id": "81179ace-01fb-4ee4-9fba-71a844380b36",
+          "name": "cancel",
+          "sourceVertexId": "78a6397f-736d-4169-bda8-909f0af959be",
+          "targetVertexId": "afb67042-49ce-408d-931a-6c9172cd8228"
+        },
+        {
+          "id": "cfd5c937-32dd-41cf-b65b-f643a2e0747b",
+          "name": "payError",
+          "sourceVertexId": "0799f4e4-07a0-429b-8b5c-c39ac5c2b4d9",
+          "targetVertexId": "43947b05-ec10-40b7-b2fb-d55f69211266"
+        },
+        {
+          "id": "ae4947a1-fb20-4d23-856d-7d2bc839ccdd",
+          "name": "retryPay",
+          "sourceVertexId": "43947b05-ec10-40b7-b2fb-d55f69211266",
+          "targetVertexId": "0799f4e4-07a0-429b-8b5c-c39ac5c2b4d9"
+        },
+        {
+          "id": "89b67800-1691-4188-b186-db5eea8320ba",
+          "name": "cancel",
+          "sourceVertexId": "3397f6e9-2d4a-42bf-9595-df11ad68a3bc",
+          "targetVertexId": "da3891d0-d6fa-4910-8b08-a5ecc37e04a6"
+        },
+        {
+          "id": "59a72894-b459-4c66-a8f0-a41c36e7d2e5",
+          "name": "refundError",
+          "sourceVertexId": "da3891d0-d6fa-4910-8b08-a5ecc37e04a6",
+          "targetVertexId": "0f6775e4-34ac-4e7c-aa09-b9a16e1271d0"
+        },
+        {
+          "id": "a8d73e37-873c-43b8-8d83-e629006a3687",
+          "name": "refundSuccess",
+          "sourceVertexId": "da3891d0-d6fa-4910-8b08-a5ecc37e04a6",
+          "targetVertexId": "963673be-c73b-4d4d-bb5a-840580c48625"
+        },
+        {
+          "id": "d8c9ff43-7dc7-423e-bb36-d8da4bc7e762",
+          "name": "reset",
+          "sourceVertexId": "afb67042-49ce-408d-931a-6c9172cd8228",
+          "targetVertexId": "127faf0f-cc01-4fba-8fff-c0dcf61bb82e"
+        },
+        {
+          "id": "253fac58-b1bb-4c59-9017-206545aa7910",
+          "name": "reset",
+          "sourceVertexId": "0f6775e4-34ac-4e7c-aa09-b9a16e1271d0",
+          "targetVertexId": "127faf0f-cc01-4fba-8fff-c0dcf61bb82e"
+        },
+        {
+          "id": "091791c1-7841-4ad4-ab4b-c30f0c4633db",
+          "name": "reset",
+          "sourceVertexId": "963673be-c73b-4d4d-bb5a-840580c48625",
+          "targetVertexId": "127faf0f-cc01-4fba-8fff-c0dcf61bb82e"
+        }
+      ],
+      "generator": "random(edge_coverage(100))",
+      "id": "6061bfdb-bdb4-4f04-8144-cc7425a8fc14",
+      "name": "Untitled-1",
+      "startElementId": "127faf0f-cc01-4fba-8fff-c0dcf61bb82e",
+      "vertices": [
+        {
+          "id": "127faf0f-cc01-4fba-8fff-c0dcf61bb82e",
+          "name": "CREATED",
+          "properties": { "x": 404.9914275257095, "y": 129.99199902399562 }
+        },
+        {
+          "id": "78a6397f-736d-4169-bda8-909f0af959be",
+          "name": "PLACED",
+          "properties": { "x": 636, "y": 127 }
+        },
+        {
+          "id": "0799f4e4-07a0-429b-8b5c-c39ac5c2b4d9",
+          "name": "PAYMENT_CHECK",
+          "properties": { "x": 858, "y": 128 }
+        },
+        {
+          "id": "3397f6e9-2d4a-42bf-9595-df11ad68a3bc",
+          "name": "PAID",
+          "properties": { "x": 1096.3612944286554, "y": 126.22097574164331 }
+        },
+        {
+          "id": "483b18e2-7d20-4ace-ae6d-a0fdeb1ec860",
+          "name": "SHIPPED",
+          "properties": { "x": 1251.4609214082413, "y": -12.868367162630483 }
+        },
+        {
+          "id": "afb67042-49ce-408d-931a-6c9172cd8228",
+          "name": "CANCELED",
+          "properties": { "x": 625.9001649817936, "y": 431.67431940197827 }
+        },
+        {
+          "id": "43947b05-ec10-40b7-b2fb-d55f69211266",
+          "name": "PAYMENT_ERROR",
+          "properties": { "x": 853.0460703002842, "y": 482.70709989203556 }
+        },
+        {
+          "id": "0f6775e4-34ac-4e7c-aa09-b9a16e1271d0",
+          "name": "REFUND_ERROR",
+          "properties": { "x": 1116.2151147882275, "y": 530.7379521179716 }
+        },
+        {
+          "id": "da3891d0-d6fa-4910-8b08-a5ecc37e04a6",
+          "name": "AWAIT_REFUND",
+          "properties": { "x": 1108.209972750571, "y": 343.6177569877618 }
+        },
+        {
+          "id": "963673be-c73b-4d4d-bb5a-840580c48625",
+          "name": "REFUNDED",
+          "properties": { "x": 1377.3828737667552, "y": 520.7315245709015 }
+        }
+      ]
+    }
+  ],
+  "selectedModelIndex": 0,
+  "selectedElementId": null
+}
